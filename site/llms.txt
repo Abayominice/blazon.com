@@ -1,0 +1,36 @@
+# Blazonshots LTD
+
+> Blazonshots LTD is a Lagos-based technology company building digital platforms for students, businesses, and safer communities. We build student engagement platforms, business visibility tools, and mobile applications, and publish original, practical articles on student technology, campus app development, and digital trust and safety.
+
+## Company
+
+- [About](https://blazonshots.com/about.html): Who Blazonshots LTD is, our mission, and what we build.
+- [Services](https://blazonshots.com/services.html): Digital product development, student engagement platforms, and business visibility tools.
+- [Apps](https://blazonshots.com/apps.html): Apps and digital products built by Blazonshots LTD.
+- [Contact](https://blazonshots.com/contact.html): How to reach us for business, partnership, or support enquiries.
+
+## Blog
+
+Original, practical articles on student technology, campus app development, and digital trust and safety. See the [Editorial Policy](https://blazonshots.com/editorial-policy.html) for how content is produced and reviewed.
+
+- [Why Most Student Tech Ideas Fail Before They Launch](https://blazonshots.com/blog/why-most-student-tech-ideas-fail-before-they-launch.html)
+- [How to Launch a Student App That People Actually Keep Using](https://blazonshots.com/blog/how-to-launch-a-student-app-that-people-actually-keep-using.html)
+- [How to Validate a Campus App Idea in One Week Without Writing Code](https://blazonshots.com/blog/how-to-validate-a-campus-app-idea-in-one-week.html)
+- [Data Privacy Mistakes Campus App Builders Make](https://blazonshots.com/blog/data-privacy-mistakes-campus-app-builders-make.html)
+- [Designing Campus Apps for Real-World Conditions](https://blazonshots.com/blog/designing-campus-apps-for-real-world-conditions.html)
+- [Getting Your First 100 Users on Campus Without a Marketing Budget](https://blazonshots.com/blog/first-100-users-on-campus-without-a-budget.html)
+- [Choosing a Tech Stack for a Student App You'll Actually Finish](https://blazonshots.com/blog/choosing-a-tech-stack-for-a-student-app.html)
+- [Running a Campus Beta Test That Produces Useful Feedback](https://blazonshots.com/blog/running-a-campus-beta-test-that-produces-useful-feedback.html)
+- [A Practical Content Moderation Framework for Campus Apps](https://blazonshots.com/blog/content-moderation-framework-for-campus-apps.html)
+- [How to Handle Your First Negative Review as a Student Founder](https://blazonshots.com/blog/handling-your-first-negative-review-as-a-student-founder.html)
+- [Free and Low-Cost Tools Every Student App Builder Should Know](https://blazonshots.com/blog/free-low-cost-tools-for-student-app-builders.html)
+- [The Best Free Apps for Managing Student Life in 2026](https://blazonshots.com/blog/best-free-apps-for-managing-student-life-2026.html)
+- [How Students Can Protect Their Personal Data on Campus Apps](https://blazonshots.com/blog/how-students-can-protect-personal-data-on-campus-apps.html)
+- [A Student's Guide to Spotting a Trustworthy Campus App Before You Download It](https://blazonshots.com/blog/spotting-a-trustworthy-campus-app-before-you-download-it.html)
+
+## Policies
+
+- [Privacy Policy](https://blazonshots.com/privacy.html)
+- [Terms of Use](https://blazonshots.com/terms.html)
+- [Cookie Policy](https://blazonshots.com/cookie-policy.html)
+- [Editorial Policy](https://blazonshots.com/editorial-policy.html)
