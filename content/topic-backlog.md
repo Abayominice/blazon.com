@@ -13,8 +13,9 @@ goes out next.
 Blazonshots builds technology for students and for the businesses that employ
 them. The student queue answers questions students and fresh graduates search
 for (grades, study, money, SIWES, first jobs). The payroll queue answers
-questions employers search for (running payroll, PAYE, pension, remittances,
-leave) and shows how Rosta handles them. Bridge topics (interns, SIWES
+questions employers in Nigeria and across Africa search for (running payroll,
+income tax, pension and contributions, remittances, leave) and shows how Rosta
+— which runs payroll in 48 African countries — handles them. Bridge topics (interns, SIWES
 students, a founder's first hire) link the two.
 
 Rules for topic choice when a queue runs low (the publisher may add 10 more):
@@ -76,7 +77,7 @@ Rules for topic choice when a queue runs low (the publisher may add 10 more):
 
 ---
 
-## Queue R — Payroll, HR and Rosta
+## Queue R — Payroll, HR and Rosta (Nigeria and the rest of Africa)
 (Every Rosta article must follow `content/rosta-reference.md`. Every tax,
 pension or statutory figure must be verified against an official source.)
 
@@ -84,9 +85,11 @@ pension or statutory figure must be verified against an official source.)
 - [ ] How to Run Your First Pay Run in Rosta, From Draft to Payslips — kw: rosta payroll
 - [ ] How PAYE Is Calculated in Nigeria in 2026, With Worked Examples — kw: paye calculation nigeria 2026
 - [ ] Setting Up Salary Structures and Pay Elements in Rosta — kw: salary structure nigeria
+- [ ] How to Run Payroll in Ghana: PAYE and SSNIT Explained — kw: payroll in ghana
 - [ ] Pension Contributions in Nigeria: Employer and Employee Rates Explained — kw: pension contribution nigeria
 - [ ] Paying Salaries Straight From Paystack or Flutterwave With Rosta Payouts — kw: pay salaries with paystack
 - [ ] NHF, NSITF and ITF: What Nigerian Employers Must Remit and When — kw: nhf nsitf itf remittance
+- [ ] How to Run Payroll in Kenya: PAYE, NSSF, SHIF and the Housing Levy — kw: payroll in kenya
 - [ ] Tracking Every Remittance and Deadline in Rosta — kw: payroll remittance tracking
 - [ ] Gross to Net: How to Make a Salary Offer Your Candidate Understands — kw: gross to net salary nigeria
 - [ ] Switching Payroll Systems Mid-Year: Opening Balances in Rosta — kw: switch payroll software
@@ -104,3 +107,10 @@ pension or statutory figure must be verified against an official source.)
 - [ ] HR Letters, Policies and Expiring Documents in Rosta — kw: hr document management
 - [ ] Simple Performance Reviews for Small Nigerian Teams — kw: performance review template
 - [ ] Recruitment in Rosta: Jobs, Candidates, Interviews and Offers — kw: recruitment software nigeria
+
+### Payroll beyond Nigeria (verify every rate on the country's official tax/social security site)
+- [ ] How to Run Payroll in South Africa: PAYE, UIF and SDL Basics — kw: payroll south africa small business
+- [ ] Running Payroll for Staff in Several African Countries From One System — kw: multi country payroll africa
+- [ ] Hiring Your First Employee in Ghana: Registration and Payroll Checklist — kw: hire employee ghana
+- [ ] How to Run Payroll in Uganda: PAYE and NSSF — kw: payroll in uganda
+- [ ] How to Run Payroll in Rwanda: PAYE and RSSB Contributions — kw: payroll rwanda

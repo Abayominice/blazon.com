@@ -96,9 +96,16 @@ blocked, still publish the other.
      relevant State Internal Revenue Service, PenCom, NSITF, ITF, FMBN, and
      the Nigeria Tax Act / Nigeria Tax Administration Act texts or their
      official summaries). The federal tax authority is the Nigeria Revenue
-     Service (formerly FIRS) since 1 January 2026. If sources disagree or a
+     Service (formerly FIRS) since 1 January 2026. For other countries use
+     that country's official revenue authority and social security bodies
+     (e.g. GRA and SSNIT in Ghana, KRA, NSSF and SHA in Kenya, SARS in South
+     Africa, URA in Uganda, RRA and RSSB in Rwanda). If sources disagree or a
      figure cannot be confirmed, say so and tell readers to confirm with an
      accountant or the agency — never guess.
+   - Rosta serves businesses across Africa (48 countries), not only Nigeria.
+     Describe non-Nigerian rule support exactly as `content/rosta-reference.md`
+     does: researched starting rules each company can adjust, not reviewed by
+     a local accountant. Only Nigeria's PAYE is accountant signed off.
    - End every payroll or tax article with this sentence in its own
      paragraph: `<p><em>This article explains how the rules generally work
      and is not tax, legal or financial advice. Confirm your situation with a

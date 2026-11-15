@@ -1,12 +1,12 @@
 # Blazonshots LTD
 
-> Blazonshots LTD (RC 6906604) is a Lagos technology company. It publishes practical guides for Nigerian students and graduates, payroll and HR guides for employers, and builds Rosta, an HR and payroll platform for Nigerian businesses.
+> Blazonshots LTD (RC 6906604) is a Lagos technology company. It publishes practical guides for Nigerian students and graduates, payroll and HR guides for employers, and builds Rosta, an HR and payroll platform for African businesses.
 
 ## Company
 
 - [About](https://blazonshots.com/about.html): Who Blazonshots LTD is, our mission, and what we build.
 - [Services](https://blazonshots.com/services.html): Digital product development, student engagement platforms, and business visibility tools.
-- [Rosta](https://blazonshots.com/rosta.html): HR and payroll platform for Nigerian businesses, payroll bureaus and HR firms.
+- [Rosta](https://blazonshots.com/rosta.html): HR and payroll platform for businesses, payroll bureaus and HR firms across Africa.
 - [Products](https://blazonshots.com/apps.html): Rosta and the Blazonshots student platform (in development).
 - [Editorial Team](https://blazonshots.com/team.html): Who runs the blog and how articles are produced.
 - [Contact](https://blazonshots.com/contact.html): How to reach us for business, partnership, or support enquiries.

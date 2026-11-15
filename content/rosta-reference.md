@@ -19,10 +19,82 @@ app source and pricing page: 15 Nov 2026.
   spreadsheets today or are switching from another payroll system.
 - Payroll bureaus and HR firms that run payroll for several client companies
   under their own brand.
-- Being expanded to other African countries; outside Nigeria each company
-  configures its own tax and contribution rules.
+- Businesses across Africa: Rosta runs payroll in **48 African countries**,
+  each in its own currency with its own income tax and statutory
+  contributions. One account can hold several companies (e.g. one per country).
+- **How the rules work (say this accurately):** Nigeria has a dedicated engine
+  whose 2026 PAYE rules were signed off by a chartered accountant. Every other
+  country uses Rosta's researched starting rules, published as **not reviewed
+  by a local accountant** — the payroll screens say so — and each company can
+  adjust bands, credits, allowances and every contribution under
+  Payroll → Settings → Tax and contribution rules; every change is in the
+  audit log. Always tell non-Nigerian readers to have a local accountant
+  confirm settings before the first live pay run. Never call non-Nigerian
+  rules "signed off", "certified" or "guaranteed compliant".
+- Remittance deadlines outside Nigeria are set from each country's rules
+  (income tax and contributions by the due day in the month after salaries
+  are paid; changeable if the authority differs).
+
+### Countries, contributions, payouts and rule confidence
+(From Rosta's docs/countries.md. "Confidence": high = checked against 2026
+sources; medium = known rules, small items may have moved; low = a template
+to check with a local accountant. Do not quote Rosta's band amounts for any
+country — verify current rates from that country's official tax authority.)
+
+| Country | Currency | Tax | Method | Contributions | Payouts | Confidence |
+|---|---|---|---|---|---|---|
+| Nigeria | NGN | PAYE | Cumulative | Pension 8%/10%, NHF 2.5%, NSITF 1%, ITF 1% | Paystack, Flutterwave | Signed off |
+| Ghana | GHS | PAYE | Monthly | SSNIT_EE, SSNIT_ER | Paystack, Flutterwave | high |
+| Kenya | KES | PAYE | Monthly | NSSF_EE, NSSF_ER, SHIF, AHL_EE, AHL_ER, NITA | Paystack, Flutterwave | high |
+| South Africa | ZAR | PAYE | Annualised | UIF_EE, UIF_ER, SDL | Paystack | high |
+| Egypt | EGP | Salary tax | Annualised | SI_EE, SI_ER, MARTYRS | Bank file | medium |
+| Morocco | MAD | IR | Annualised | CNSS_EE, AMO_EE, CNSS_ER, AF_ER, AMO_ER, TFP | Bank file | medium |
+| Algeria | DZD | IRG | Annualised | CNAS_EE, CNAS_ER | Bank file | low |
+| Tunisia | TND | IRPP | Annualised | CNSS_EE, CNSS_ER, TFP, FOPROLOS | Bank file | low |
+| Côte d'Ivoire | XOF | ITS | Monthly | CNPS_EE, CNPS_ER, PF_ER, AT_ER, CMU_EE, CMU_ER, ITS_ER, FDFP | Bank file | low |
+| Senegal | XOF | IR | Annualised | IPRES_EE, IPRES_ER, CSS_PF, CSS_AT, CFCE | Bank file | low |
+| Cameroon | XAF | IRPP | Annualised | CNPS_EE, CNPS_ER, PF_ER, AT_ER, CFC_EE, CFC_ER, FNE, RAV, TDL | Bank file | low |
+| Uganda | UGX | PAYE | Monthly | NSSF_EE, NSSF_ER | Flutterwave | high |
+| Tanzania | TZS | PAYE | Monthly | NSSF_EE, NSSF_ER, SDL, WCF | Flutterwave | high |
+| Rwanda | RWF | PAYE | Monthly | RSSB_EE, RSSB_ER, MAT_EE, MAT_ER, OH_ER, CBHI | Flutterwave | medium |
+| Ethiopia | ETB | Employment income tax | Monthly | PEN_EE, PEN_ER | Bank file | medium |
+| Zambia | ZMW | PAYE | Monthly | NAPSA_EE, NAPSA_ER, NHIMA_EE, NHIMA_ER, SDL | Bank file | medium |
+| Zimbabwe | USD | PAYE | Monthly | NSSA_EE, NSSA_ER, ZIMDEF | Bank file | low |
+| Malawi | MWK | PAYE | Monthly | PEN_EE, PEN_ER | Bank file | low |
+| Mozambique | MZN | IRPS | Annualised | INSS_EE, INSS_ER | Bank file | low |
+| Angola | AOA | IRT | Monthly | INSS_EE, INSS_ER | Bank file | low |
+| Botswana | BWP | PAYE | Annualised | None | Bank file | medium |
+| Namibia | NAD | PAYE | Annualised | SSC_EE, SSC_ER, VET | Bank file | medium |
+| Lesotho | LSL | PAYE | Monthly | None | Bank file | low |
+| Eswatini | SZL | PAYE | Annualised | ENPF_EE, ENPF_ER | Bank file | low |
+| Mauritius | MUR | PAYE | Annualised | CSG_EE, CSG_ER, NSF_EE, NSF_ER, HRDC | Bank file | low |
+| Seychelles | SCR | Income tax | Monthly | SPF_EE, SPF_ER | Bank file | low |
+| Madagascar | MGA | IRSA | Monthly | CNAPS_EE, CNAPS_ER, OSTIE_EE, OSTIE_ER | Bank file | low |
+| Benin | XOF | ITS | Monthly | CNSS_EE, CNSS_ER, AT_ER, VPS | Bank file | low |
+| Burkina Faso | XOF | IUTS | Monthly | CNSS_EE, CNSS_ER, TPA | Bank file | low |
+| Mali | XOF | ITS | Annualised | INPS_EE, AMO_EE, INPS_ER, AMO_ER, CF, TFP | Bank file | low |
+| Niger | XOF | IUTS | Annualised | CNSS_EE, CNSS_ER, TA | Bank file | low |
+| Togo | XOF | IRPP | Annualised | CNSS_EE, CNSS_ER | Bank file | low |
+| Guinea | GNF | RTS | Monthly | CNSS_EE, CNSS_ER, VF, TA | Bank file | low |
+| Guinea-Bissau | XOF | IPR | Monthly | INSS_EE, INSS_ER | Bank file | low |
+| Sierra Leone | SLE | PAYE | Monthly | NASSIT_EE, NASSIT_ER | Bank file | low |
+| Liberia | LRD | Income tax | Annualised | NASSCORP_EE, NASSCORP_ER | Bank file | low |
+| Gambia | GMD | PAYE | Annualised | SSHFC_EE, SSHFC_ER | Bank file | low |
+| Cabo Verde | CVE | IRPS | Annualised | INPS_EE, INPS_ER | Bank file | low |
+| Mauritania | MRU | ITS | Monthly | CNSS_EE, CNSS_ER, CNAM_EE, CNAM_ER | Bank file | low |
+| Gabon | XAF | IRPP | Annualised | CNSS_EE, CNSS_ER, CNAMGS_EE, CNAMGS_ER | Bank file | low |
+| Congo | XAF | IRPP | Annualised | CNSS_EE, CNSS_ER, PF_ER, AT_ER, TUS | Bank file | low |
+| DR Congo | CDF | IPR | Monthly | CNSS_EE, CNSS_ER, INPP, ONEM | Bank file | low |
+| Chad | XAF | IRPP | Annualised | CNPS_EE, CNPS_ER | Bank file | low |
+| Equatorial Guinea | XAF | IRPF | Annualised | INSESO_EE, INSESO_ER | Bank file | low |
+| São Tomé and Príncipe | STN | IRS | Monthly | INSS_EE, INSS_ER | Bank file | low |
+| Burundi | BIF | IPR | Monthly | INSS_EE, INSS_ER, AT_ER | Bank file | low |
+| Comoros | KMF | IGR | Annualised | None | Bank file | low |
+| Djibouti | DJF | ITS | Monthly | CNSS_EE, CNSS_ER | Bank file | low |
 
 ## Plans (Nigeria, naira, before 7.5% VAT, at time of writing)
+- The pricing page has a selector for 48 African countries; quote only the
+  Nigerian naira prices below and send other readers to the pricing page.
 - 30-day free trial on every plan, no card needed. Billed per active
   employee per month (anyone in an approved pay run that month, or who signed
   in that month). Invoices on the 1st for the previous month.
