@@ -29,10 +29,10 @@
   "headline": "A Practical Content Moderation Framework for Campus Apps",
   "description": "Most student-built social and community apps have no moderation plan until something goes wrong. A simple, realistic framework to put in place before that happens.",
   "image": "https://blazonshots.com/assets/img/og-default.png",
-  "author": {"@type": "Organization", "name": "Blazonshots LTD", "url": "https://blazonshots.com/about.html"},
+  "author": {"@type": "Organization", "name": "Blazonshots Editorial Team", "url": "https://blazonshots.com/team.html"},
   "publisher": {"@type": "Organization", "name": "Blazonshots LTD", "url": "https://blazonshots.com/", "logo": {"@type": "ImageObject", "url": "https://blazonshots.com/assets/img/icon-512.png"}},
   "datePublished": "2026-09-28",
-  "dateModified": "2026-09-28",
+  "dateModified": "2026-11-15",
   "mainEntityOfPage": {"@type": "WebPage", "@id": "https://blazonshots.com/blog/content-moderation-framework-for-campus-apps.html"},
   "url": "https://blazonshots.com/blog/content-moderation-framework-for-campus-apps.html",
   "articleSection": "Digital Trust & Safety",
@@ -47,10 +47,10 @@
     <a class="logo" href="../index.html">Blazon<span>shots</span> LTD</a>
     <nav>
       <a href="../index.html">Home</a>
-      <a href="../about.html">About</a>
-      <a href="../services.html">Services</a>
-      <a href="../apps.html">Apps</a>
       <a href="../blog.html">Blog</a>
+      <a href="../rosta.html">Rosta</a>
+      <a href="../apps.html">Products</a>
+      <a href="../about.html">About</a>
       <a href="../contact.html">Contact</a>
     </nav>
   </div>
@@ -58,7 +58,7 @@
 <main>
 <section class="page-hero"><div class="container"><p class="eyebrow">Blazonshots Blog</p><h1>A Practical Content Moderation Framework for Campus Apps</h1></div></section>
 <section><div class="container content article">
-<p class="article-meta">Published September 2026 · Category: Digital Trust &amp; Safety · By <a href="../about.html">Blazonshots LTD Editorial Team</a> · <a href="../editorial-policy.html">Editorial Policy</a></p>
+<p class="article-meta">Published September 2026 · Category: Digital Trust &amp; Safety · By <a href="../team.html">Blazonshots Editorial Team</a> · <a href="../editorial-policy.html">Editorial Policy</a></p>
 <p class="lead">Any campus app with a comment section, a post feature, or a group chat will eventually have a moderation problem — harassment, spam, impersonation, or content that simply does not belong. Most student teams do not think about this until the first bad incident forces the question, which is exactly the wrong time to be designing a policy from scratch.</p>
 
 <h2>Moderation is a product decision, not just a policy document</h2>
@@ -73,11 +73,50 @@
 <p>The moment an actual difficult report arrives — a borderline joke, an accusation between two users with no clear evidence either way, content that is unpleasant but not against any written rule — is the worst possible time to be deciding, for the first time, what the product's values actually are. Working through a short list of realistic hard cases in advance, and writing down roughly how the team would handle each one, turns a stressful, reactive decision into a reference the team can point back to when it actually happens. It does not need to cover every scenario. It needs to establish the underlying principle well enough that new, similar cases become easier to reason about.</p>
 
 <h2>Be honest with users about what moderation can and cannot promise</h2>
-<p>Overpromising is a common early mistake — a community guidelines page that implies every report will be reviewed within minutes by a dedicated safety team, when in reality it is one founder checking a shared inbox between lectures. This kind of gap between stated policy and actual capacity is exactly the sort of mismatch discussed in our piece on data privacy mistakes: what the product claims and what it actually does need to match, or the gap becomes the story the moment someone notices it. It is better to state a realistic response time and consistently meet it than to promise an ideal that quietly slips.</p>
+<p>Overpromising is a common early mistake — a community guidelines page that implies every report will be reviewed within minutes by a dedicated safety team, when in reality it is one founder checking a shared inbox between lectures. This kind of gap between stated policy and actual capacity is exactly the sort of mismatch discussed in <a href="data-privacy-mistakes-campus-app-builders-make.html">our piece on data privacy mistakes</a>: what the product claims and what it actually does need to match, or the gap becomes the story the moment someone notices it. It is better to state a realistic response time and consistently meet it than to promise an ideal that quietly slips.</p>
 
+
+<h2>A simple severity ladder your team can apply consistently</h2>
+<p>Inconsistency is what users notice most: two similar posts, one removed and one left up. A short severity ladder, agreed before launch, makes decisions faster and fairer. A hypothetical version for a small campus app might look like this:</p>
+<div class="table-wrap"><table>
+  <tr><th>Level</th><th>Examples</th><th>Typical action</th><th>Target response time</th></tr>
+  <tr><td>1 — Low</td><td>Off-topic posts, mild spam, posting in the wrong group</td><td>Remove or move content; friendly note to the user</td><td>Within a few days</td></tr>
+  <tr><td>2 — Medium</td><td>Insults, repeated spam, misleading listings, minor impersonation</td><td>Remove content; formal warning; temporary restriction for repeats</td><td>Within 24 hours</td></tr>
+  <tr><td>3 — High</td><td>Harassment, sharing someone's private information, sexual content involving another person without consent, threats</td><td>Remove immediately; suspend the account; preserve evidence</td><td>As fast as possible, same day</td></tr>
+  <tr><td>4 — Emergency</td><td>Credible threats of violence, self-harm risk, anything involving a minor</td><td>Remove, suspend, and escalate to the right authority or support service</td><td>Immediately</td></tr>
+</table></div>
+<p>The exact levels matter less than having them written down. When a new moderator joins, or the founder is in exams, the ladder lets someone else make the same decision the team would have made.</p>
+
+<h2>Tools that make reports manageable for a small team</h2>
+<p>You do not need specialist software to moderate well at small scale. A few product features do most of the work:</p>
+<ul>
+  <li><strong>A report button on every post, comment and profile</strong>, with three to five reasons to choose from. Reasons let you sort reports by severity without reading every one immediately.</li>
+  <li><strong>Block and mute for users.</strong> Many conflicts end when one person can simply stop seeing the other, without any moderator involvement.</li>
+  <li><strong>Rate limits on new accounts</strong>, such as a cap on posts or messages in the first day. This alone stops most spam waves.</li>
+  <li><strong>A private moderation log</strong> recording what was reported, who reviewed it, what was decided and why. The log keeps decisions consistent and protects the team if a decision is challenged.</li>
+  <li><strong>An appeal route</strong>, even if it is just an email address. Users accept decisions more readily when they know they can ask for a second look.</li>
+</ul>
+
+<h2>Working with your institution and the law</h2>
+<p>Campus apps sit close to real institutions. Before launch, decide when you would involve the university's student affairs office, a counselling unit or law enforcement, and who on your team would make that call. Keep evidence of serious reports securely and share it only with people who need it. Remember that reports themselves contain personal data, so they deserve the same care as the rest of your users' information under Nigeria's data protection rules.</p>
 
 <h2>Moderation quality is a trust signal, not a cost centre</h2>
 <p>It is easy to think of moderation purely as overhead — time spent that is not spent building features. In a tightly connected campus community, the opposite is closer to true. A community that sees reports handled fairly and consistently trusts the platform more, stays longer, and is more willing to bring friends onto it. A community that sees bad behaviour go unaddressed, or sees moderation applied inconsistently, loses trust quickly and quietly, in a way that is very difficult to win back. For a campus product, where reputation travels through word of mouth faster than almost any other channel, getting this right early is not a nice-to-have. It is part of the actual product.</p>
+
+<h2>Looking after the people who moderate</h2>
+<p>On a student product, moderators are usually the founders, a few trusted early users or volunteers from a student association. Reviewing reports can expose them to abusive messages, distressing images and conflicts involving people they know personally on campus. A few simple practices make the work sustainable. Rotate who checks reports so no one person carries it every day. Let moderators step back from cases involving friends, coursemates or anyone they have a personal history with, and record that they did. Keep the most serious cases with one or two experienced people rather than sharing them widely. Give moderators clear authority to act within the severity ladder without waiting for permission at midnight, and back their reasonable decisions publicly even when a user complains loudly. Moderation done by exhausted or conflicted people becomes inconsistent quickly, and inconsistency is the fastest way to lose a community's trust.</p>
+
+<h2>Frequently asked questions</h2>
+<h3>Do small campus apps really need content moderation?</h3>
+<p>Yes. Any feature where users can post or message will attract spam and conflict eventually. A small app needs a simple system — a report button, someone checking reports and a few clear actions — not a large team.</p>
+<h3>How quickly should reports be reviewed?</h3>
+<p>Set a realistic target and meet it consistently. Serious reports such as harassment or threats should be handled the same day; low-level issues can wait a few days.</p>
+<h3>Should a campus app use automated moderation?</h3>
+<p>Simple automation such as spam filters and rate limits helps from day one. Automated judgement of borderline content is harder and still needs human review, so start with reporting and clear rules.</p>
+<h3>What should community guidelines include?</h3>
+<p>What is not allowed, what happens when rules are broken, how to report something, how long reviews take and how to appeal. Keep it short and written in plain language.</p>
+
+
 
 <h2>Related articles</h2>
 <ul class="related-articles">
@@ -88,8 +127,13 @@
 </div></section></main>
 <footer>
   <div class="container footer-row">
-    <div>© 2026 Blazonshots LTD. All rights reserved.</div>
     <div>
+      <div>© 2026 Blazonshots LTD (RC 6906604). All rights reserved.</div>
+      <div class="footer-address">Suite 1, 2nd Floor, Milaco Plaza, 123–125 Ago Palace Way, Cement Bus Stop, Oshodi-Isolo, Lagos 100263, Nigeria</div>
+    </div>
+    <div>
+      <a href="../services.html">Services</a> ·
+      <a href="../team.html">Editorial Team</a> ·
       <a href="../privacy.html">Privacy Policy</a> ·
       <a href="../terms.html">Terms of Use</a> ·
       <a href="../cookie-policy.html">Cookie Policy</a> ·

@@ -44,6 +44,7 @@ MIN_WORDS = 1200
 CATEGORIES = {
     "Student Life", "Study Skills", "Student Money", "Careers & Skills",
     "Student Tech", "App Development", "Growth", "Digital Trust & Safety",
+    "Payroll & HR", "Rosta Guides",
 }
 
 
@@ -147,7 +148,7 @@ def render(meta, body, date):
         "headline": meta["title"],
         "description": meta["description"],
         "image": f"{BASE}/assets/img/og-default.png",
-        "author": {"@type": "Organization", "name": "Blazonshots LTD", "url": f"{BASE}/about.html"},
+        "author": {"@type": "Organization", "name": "Blazonshots Editorial Team", "url": f"{BASE}/team.html"},
         "publisher": {"@type": "Organization", "name": "Blazonshots LTD", "url": f"{BASE}/",
                       "logo": {"@type": "ImageObject", "url": f"{BASE}/assets/img/icon-512.png"}},
         "datePublished": date.isoformat(),
@@ -209,6 +210,20 @@ def update_sitemap(slug, date):
     path.write_text(s, encoding="utf-8")
 
 
+def update_home(limit=6):
+    """Refresh the 'Latest articles' cards on the homepage from blog.html."""
+    path = SITE / "index.html"
+    s = path.read_text(encoding="utf-8")
+    if "<!--LATEST:START-->" not in s:
+        return
+    blog = (SITE / "blog.html").read_text(encoding="utf-8")
+    cards = re.findall(r'<article class="card blog-card">.*?</article>', blog, re.S)[:limit]
+    cards = [c.replace("\n", "\n      ") for c in cards]
+    block = "<!--LATEST:START-->\n      " + "\n\n      ".join(cards) + "\n<!--LATEST:END-->"
+    s = re.sub(r"<!--LATEST:START-->.*?<!--LATEST:END-->", lambda m: block, s, flags=re.S)
+    path.write_text(s, encoding="utf-8")
+
+
 def rebuild_llms():
     path = SITE / "llms.txt"
     s = path.read_text(encoding="utf-8")
@@ -246,6 +261,7 @@ def main():
     update_blog_index(meta)
     update_sitemap(meta["slug"], date)
     rebuild_llms()
+    update_home()
     PUBLISHED.mkdir(parents=True, exist_ok=True)
     shutil.move(str(draft), PUBLISHED / draft.name)
     print(f"PUBLISHED: {BASE}/blog/{meta['slug']}.html")
