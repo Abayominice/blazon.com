@@ -32,7 +32,7 @@
   "author": {"@type": "Organization", "name": "Blazonshots Editorial Team", "url": "https://blazonshots.com/team.html"},
   "publisher": {"@type": "Organization", "name": "Blazonshots LTD", "url": "https://blazonshots.com/", "logo": {"@type": "ImageObject", "url": "https://blazonshots.com/assets/img/icon-512.png"}},
   "datePublished": "2026-09-25",
-  "dateModified": "2026-09-25",
+  "dateModified": "2026-11-17",
   "mainEntityOfPage": {"@type": "WebPage", "@id": "https://blazonshots.com/blog/running-a-campus-beta-test-that-produces-useful-feedback.html"},
   "url": "https://blazonshots.com/blog/running-a-campus-beta-test-that-produces-useful-feedback.html",
   "articleSection": "Growth",
@@ -75,11 +75,53 @@
 <p>Writing these questions down in advance, before the test starts, matters more than it sounds like it should. In the moment, it is very easy to unconsciously ask leading questions — "wasn't that smooth?" — that steer the tester toward the answer you are hoping for. A short, fixed list of behavioural questions, asked the same way to every tester, keeps the results comparable and honest.</p>
 
 <h2>Recruit testers who match your actual first user, not your friend group</h2>
-<p>Feedback from close friends is contaminated by their desire to support you, and feedback from a general audience that does not match your actual target user is contaminated by irrelevance. The most useful beta testers are strangers, or near-strangers, who match the specific description of the person the product is meant for — the same specificity discussed in our piece on validating a campus app idea. A beta tester who is not the intended user can tell you whether the app is confusing in general. Only a tester who matches your real target user can tell you whether it solves their actual problem.</p>
+<p>Feedback from close friends is contaminated by their desire to support you, and feedback from a general audience that does not match your actual target user is contaminated by irrelevance. The most useful beta testers are strangers, or near-strangers, who match the specific description of the person the product is meant for — the same specificity discussed in our piece on <a href="how-to-validate-a-campus-app-idea-in-one-week.html">validating a campus app idea in one week</a>. A beta tester who is not the intended user can tell you whether the app is confusing in general. Only a tester who matches your real target user can tell you whether it solves their actual problem.</p>
 
 
 <h2>Close the loop, every time</h2>
 <p>The step most teams skip is going back to the tester after making a change based on their feedback and telling them, specifically, what changed because of what they said. This does two things: it turns a one-time tester into someone who feels genuinely invested in the product's success, and it teaches you, over repeated rounds, which pieces of feedback actually led to a meaningful improvement versus which ones were noise. A beta test that ends the moment the tester closes the app has only done half its job. The other half is using what you learned quickly enough that the next round of testing is testing something genuinely better.</p>
+
+<h2>How to plan a campus beta test in one week</h2>
+<p>A useful beta test does not need a big launch or a long timeline. One focused week is enough for a first round, as long as each day has a clear job.</p>
+<ol>
+  <li><strong>Day 1: write down what you need to learn.</strong> Pick two or three questions only, for example "Can a first-year find and book a tutorial slot without help?" or "Do people come back to the app on day three without a reminder?" If a test cannot answer a question, the question does not belong in this round.</li>
+  <li><strong>Day 2: write the tasks and the behavioural questions.</strong> One or two realistic tasks per tester, plus the fixed list of follow-up questions described above.</li>
+  <li><strong>Day 3: recruit five to eight testers</strong> who match your target user. Five careful sessions usually surface the biggest problems; dozens of casual testers mostly repeat each other.</li>
+  <li><strong>Days 4 and 5: run the sessions.</strong> Twenty to thirty minutes each, in person where possible, with one person running the session and one taking notes.</li>
+  <li><strong>Day 6: sort what you saw.</strong> Put every problem on a list, mark how many testers hit it, and rank by how badly it blocked the task.</li>
+  <li><strong>Day 7: decide and tell testers.</strong> Choose the two or three fixes for the next build and message each tester about what is changing.</li>
+</ol>
+<p>The discipline that makes this work is keeping each round small. A beta test that tries to check every feature at once tends to produce a long, flat list of comments with no clear priority.</p>
+
+<h2>Testing under real Nigerian campus conditions</h2>
+<p>An app that works perfectly on the founder's phone on fast office Wi-Fi can fall apart in a hostel at night. If your users are Nigerian students, part of every beta round should deliberately reproduce the conditions they actually live with. This matters even more if your idea was shaped by the realities covered in our guide to <a href="designing-campus-apps-for-real-world-conditions.html">designing campus apps for real-world conditions</a>.</p>
+<ul>
+  <li><strong>Weak or expensive data.</strong> Ask at least one tester to use the app on their normal mobile data, not your hotspot. Watch how long the first screen takes to load and whether anything breaks when the connection drops mid-task. Note how much data a typical session uses; students on tight data bundles notice.</li>
+  <li><strong>Older and lower-storage phones.</strong> Include at least one tester with an older Android phone that is nearly full. Installation size, crashes on low memory and slow animations show up here first.</li>
+  <li><strong>Power cuts and low battery.</strong> Students often use apps on a power bank or with the phone on battery saver. Check whether your app still behaves correctly when background activity is restricted, and whether a half-finished action (a payment, a form, an upload) survives the app being closed.</li>
+  <li><strong>Shared and borrowed devices.</strong> Some students share a phone or log in on a friend's device. Test what happens when someone signs out and another person signs in, and make sure personal data does not leak between accounts.</li>
+</ul>
+<p>You do not need a device lab for any of this. Asking testers to use their own phones, on their own data, where they normally would, gets you most of the way.</p>
+
+<h2>Handling testers' personal data responsibly</h2>
+<p>Beta testers are trusting you with more than opinions. They may create accounts with real names, phone numbers and student details, and your session notes may describe them. Treat that information carefully from day one:</p>
+<ul>
+  <li>Tell testers plainly what you are collecting, why, and how long you will keep it.</li>
+  <li>Ask before recording a screen or audio, and do not record anyone who says no.</li>
+  <li>Refer to testers in notes by a number or first name only, and keep contact details in a separate, access-controlled file.</li>
+  <li>Delete test accounts and recordings you no longer need once the round is finished.</li>
+</ul>
+<p>Nigeria's Data Protection Act 2023 applies to personal data you collect, including in a test. Our piece on <a href="data-privacy-mistakes-campus-app-builders-make.html">data privacy mistakes campus app builders make</a> covers the common traps, and these habits are much easier to set up during a beta than to retrofit after launch.</p>
+
+<h2>Frequently asked questions</h2>
+<h3>How many beta testers does a campus app need?</h3>
+<p>For a first round, five to eight testers who match your target user are usually enough to reveal the biggest problems. Run a second small round after you fix them, rather than recruiting a large group once. Larger numbers become useful later, when you want to measure whether people keep using the app over several weeks.</p>
+<h3>Should I pay beta testers?</h3>
+<p>A small thank-you, such as airtime, a data bundle or a snack, is reasonable and respects their time. Keep it modest and the same for everyone, and give it whether or not their feedback is positive, so it does not push them towards telling you what you want to hear.</p>
+<h3>Can I run a beta test remotely?</h3>
+<p>Yes, with a video call and screen sharing, but it costs more data and connections often drop. If you test remotely, keep sessions short, ask the tester to talk through what they are doing, and have a fallback such as a voice note describing each step.</p>
+<h3>When is an app ready for a beta test?</h3>
+<p>When the one core task works from start to finish, even if it looks rough. Testing earlier than feels comfortable is usually better, because you find out whether the main idea works before spending weeks polishing screens nobody needs.</p>
 
 <h2>Related articles</h2>
 <ul class="related-articles">

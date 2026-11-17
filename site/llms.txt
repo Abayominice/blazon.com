@@ -15,6 +15,8 @@
 
 Original, practical articles on student technology, campus app development, and digital trust and safety. See the [Editorial Policy](https://blazonshots.com/editorial-policy.html) for how content is produced and reviewed.
 
+- [How to Run Payroll in Nigeria: A Step-by-Step Guide](https://blazonshots.com/blog/how-to-run-payroll-in-nigeria.html)
+- [How to Calculate Your CGPA in Nigerian Universities](https://blazonshots.com/blog/how-to-calculate-cgpa-nigerian-universities.html)
 - [A Student's Guide to Spotting a Trustworthy Campus App Before You Download It](https://blazonshots.com/blog/spotting-a-trustworthy-campus-app-before-you-download-it.html)
 - [How Students Can Protect Their Personal Data on Campus Apps](https://blazonshots.com/blog/how-students-can-protect-personal-data-on-campus-apps.html)
 - [The Best Free Apps for Managing Student Life in 2026](https://blazonshots.com/blog/best-free-apps-for-managing-student-life-2026.html)

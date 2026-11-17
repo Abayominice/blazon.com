@@ -34,7 +34,7 @@ Rules for topic choice when a queue runs low (the publisher may add 10 more):
 ## Queue S — Students
 
 ### Grades & academic performance (pillar: CGPA)
-- [ ] How to Calculate Your CGPA in Nigerian Universities (5-Point Scale, With Worked Examples) — kw: how to calculate cgpa
+- [x] How to Calculate Your CGPA in Nigerian Universities (5-Point Scale, With Worked Examples) — kw: how to calculate cgpa — published 2026-11-17
 - [ ] CGPA Classes Explained: First Class, Second Class Upper, Lower and Third Class — kw: cgpa class of degree nigeria
 - [ ] How to Write a SIWES Report: Structure, Examples and Common Mistakes — kw: how to write siwes report
 - [ ] How to Raise a Low CGPA: A Semester-by-Semester Recovery Plan — kw: how to improve cgpa
@@ -81,7 +81,7 @@ Rules for topic choice when a queue runs low (the publisher may add 10 more):
 (Every Rosta article must follow `content/rosta-reference.md`. Every tax,
 pension or statutory figure must be verified against an official source.)
 
-- [ ] How to Run Payroll in Nigeria: A Step-by-Step Guide for Small Businesses — kw: how to run payroll in nigeria
+- [x] How to Run Payroll in Nigeria: A Step-by-Step Guide for Small Businesses — kw: how to run payroll in nigeria — published 2026-11-17
 - [ ] How to Run Your First Pay Run in Rosta, From Draft to Payslips — kw: rosta payroll
 - [ ] How PAYE Is Calculated in Nigeria in 2026, With Worked Examples — kw: paye calculation nigeria 2026
 - [ ] Setting Up Salary Structures and Pay Elements in Rosta — kw: salary structure nigeria
